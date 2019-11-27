@@ -301,7 +301,7 @@ a {
 .services .accordion {
   max-width: 800px;
   width: 100%;
-  margin: 50px auto 0 auto; }
+  margin: 50px auto 100px auto; }
   .services .accordion .accordion-box {
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
     width: 100%;
@@ -312,7 +312,8 @@ a {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      min-height: 50px; }
+      min-height: 50px;
+      cursor: pointer; }
       .services .accordion .accordion-box .accordion-title__logo {
         display: flex; }
         .services .accordion .accordion-box .accordion-title__logo .logo-text {
@@ -339,6 +340,74 @@ a {
           line-height: 25px; }
     .services .accordion .accordion-box .accordion-content_active {
       display: flex; }
+
+.comments {
+  max-width: 1600px;
+  min-height: 564px;
+  background: url("../image/mainImage/comments-block/commentsBackground.png") no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 80px; }
+  .comments__text {
+    max-width: 550px;
+    width: 100%;
+    color: #fff; }
+  .comments .title-text {
+    font-size: 45px;
+    font-weight: 700; }
+  .comments .title-paragraph {
+    font-size: 15px;
+    line-height: 25px;
+    margin-top: 30px; }
+  .comments__link {
+    width: 150px;
+    min-height: 55px;
+    background: #061e37;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 80px; }
+  .comments__link:hover {
+    transform: scale(1.1); }
+  .comments .comments__slider {
+    max-width: 800px; }
+    .comments .comments__slider .slider-link_top {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 33px; }
+    .comments .comments__slider .slider-link_bottom {
+      display: flex;
+      justify-content: center;
+      margin-top: 33px; }
+  .comments .comments-block {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px; }
+    .comments .comments-block__text {
+      max-width: 650px;
+      background: #fff;
+      border-radius: 5px;
+      margin-left: 50px;
+      padding: 30px;
+      box-shadow: 0 7px 16px 0 rgba(0, 0, 0, 0.2); }
+    .comments .comments-block_margin {
+      margin-bottom: 0; }
+    .comments .comments-block .comments-name {
+      color: #000000;
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 20px; }
+    .comments .comments-block .comments-text {
+      font-size: 15px;
+      color: #78909c;
+      font-style: italic;
+      line-height: 25px; }
 
 body {
   font-family: 'Raleway', sans-serif; }
