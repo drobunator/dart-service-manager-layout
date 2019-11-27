@@ -1,0 +1,112 @@
+@media screen and (max-width: 1260px){
+  .header__login-link{
+    margin-top: 3px;
+  }
+  .content-text{
+    margin-right: 30px;
+  }
+}
+
+
+
+@media screen and (max-width: 1024px) {
+  .header{
+    padding: 40px 80px 100px;
+  }
+  .navigation{
+    display: none;
+  }
+  .header__content{
+    margin-top: 80px;
+  }
+  .header__content .content-text__heading{
+    font-size: 45px;
+  }
+  .header__content .content-text__paragraph{
+    line-height: 30px;
+    font-size: 15px;
+  }
+  .header__content .content-text__link{
+    margin-top: 20px;
+  }
+
+}
+
+
+
+@media screen and (max-width: 960px) {
+  .header__content .content-text__heading{
+    font-size: 35px;
+  }
+  .header__content .content-text .content-link{
+    width: 120px;
+    height: 47px;
+    font-size: 12px;
+  }
+  .header__content{
+    margin-top: 80px;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .header__content{
+    flex-direction: column-reverse;
+    margin-top: 60px;
+  }
+  .header__content .content-text{
+    margin: 0 auto;
+    width: 94%;
+  }
+  .header__content .content-text__heading {
+    font-size: 25px;
+  } .header__content .content-text__paragraph {
+    font-size: 13px;
+  }
+  .content-video{
+   margin: 0 auto;
+  }
+  .content-video img{
+    width: 100%;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .header{
+    padding: 35px 40px 60px;
+  }
+  .header__content{
+    margin: 40px auto 0 auto;
+  }
+  .header__content .content-text{
+    padding-top: 30px;
+  }
+  .header__content .content-text .content-link{
+    width: 100px;
+    height: 40px;
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .header{
+    padding: 25px 25px 60px;
+  }
+  .header__content .content-text{
+    padding-top: 20px;
+  }
+  .header__content{
+    margin-top: 30px;
+  }
+  .header__content .content-text__heading{
+    font-size: 18px;
+  }
+  .header-box{
+    font-size: 13px;
+  }
+  .header__content .content-text__paragraph{
+    font-size: 11px;
+    line-height: 20px;
+    margin-top: 10px;
+  }
+}
