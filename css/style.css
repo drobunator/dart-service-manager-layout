@@ -79,7 +79,8 @@
 
 * {
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  box-sizing: border-box; }
 
 button {
   border: none;
@@ -200,6 +201,7 @@ a {
       margin-top: 16px; }
     .page .page-content .page-content__paragraph {
       font-size: 15px;
+      line-height: 25px;
       font-weight: 500;
       color: #b0bec5;
       margin-top: 25px; }
@@ -304,7 +306,6 @@ a {
   margin: 50px auto 100px auto; }
   .services .accordion .accordion-box {
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
-    width: 100%;
     padding: 0 25px;
     border-radius: 5px;
     margin-bottom: 25px; }
@@ -333,7 +334,6 @@ a {
       .services .accordion .accordion-box .accordion-content__text {
         max-width: 470px; }
         .services .accordion .accordion-box .accordion-content__text .content-paragraph {
-          width: 100%;
           margin-left: 30px;
           font-weight: 500;
           font-size: 15px;
@@ -342,7 +342,6 @@ a {
       display: flex; }
 
 .comments {
-  max-width: 1600px;
   min-height: 564px;
   background: url("../image/mainImage/comments-block/commentsBackground.png") no-repeat;
   background-size: cover;
@@ -408,6 +407,170 @@ a {
       color: #78909c;
       font-style: italic;
       line-height: 25px; }
+
+@media screen and (max-width: 1024px) {
+  .page .page-content {
+    margin: 60px auto 0 auto; }
+  .page .title-block {
+    margin-top: 70px;
+    margin-bottom: 60px; } }
+
+@media screen and (max-width: 960px) {
+  .page .page-content .page-content__heading {
+    font-size: 35px; }
+  .page .page-content .page-content__title {
+    font-size: 20px; }
+  .page .title-block {
+    margin-top: 40px; } }
+
+@media screen and (max-width: 860px) {
+  .page .page-content .page-content__heading {
+    font-size: 25px; }
+  .page .page-content .page-content__title {
+    font-size: 16px; }
+  .page .page-content .page-content__paragraph {
+    font-size: 13px;
+    margin-top: 18px;
+    line-height: 20px; }
+  .page .title-block {
+    margin-bottom: 40px; }
+  .page .title-block .title-box__heading {
+    margin-top: 30px;
+    font-size: 16px; }
+  .page .title-block .title-box__paragraph {
+    font-size: 12px; }
+  .page .page__button {
+    width: 120px;
+    height: 47px;
+    font-size: 12px; } }
+
+@media screen and (max-width: 640px) {
+  .page .title-block {
+    flex-direction: column;
+    align-items: center; }
+  .page .title-block .title-box {
+    max-width: 60%;
+    margin-bottom: 25px; }
+  .page .title-block .title-box:last-child {
+    margin-bottom: 0; } }
+
+@media screen and (max-width: 540px) {
+  .page {
+    padding: 0 25px; }
+  .page .page-content {
+    margin-top: 30px; }
+  .page .page-content .page-content__heading {
+    font-size: 18px; }
+  .page .page-content .page-content__title {
+    font-size: 13px; }
+  .page .page-content .page-content__paragraph {
+    font-size: 11px;
+    margin-top: 12px; }
+  .page .title-block {
+    margin-top: 30px;
+    margin-bottom: 30px; }
+  .page .title-block .title-box {
+    margin-bottom: 15px;
+    /*max-width: 100%;*/ }
+  .page .title-block .title-box__image {
+    width: 50px; }
+  .page .title-block .title-box__image_size {
+    width: 50px;
+    height: initial; }
+  .page .title-block .title-box__heading {
+    font-size: 13px;
+    margin-top: 20px; }
+  .page .title-block .title-box__paragraph {
+    font-size: 11px;
+    margin-top: 10px; }
+  .page .page__button {
+    width: 100px;
+    height: 40px; } }
+
+@media screen and (max-width: 960px) {
+  .counts-block {
+    margin-top: 70px;
+    flex-wrap: wrap; }
+  .counts-block .counts-box {
+    width: 50%; }
+  .counts-block .counts-box .content-box__text {
+    font-size: 16px; } }
+
+@media screen and (max-width: 640px) {
+  .counts-block .counts-box {
+    min-height: 120px; }
+  .counts-block .counts-box .content-box__image {
+    width: 45px;
+    height: 45px; }
+  .counts-block .counts-box .content-box__image .content-image {
+    width: 20px;
+    height: 20px;
+    top: calc(50% - 10px);
+    left: calc(50% - 10px); } }
+
+@media screen and (max-width: 480px) {
+  .counts-block .counts-box .content-box__text {
+    font-size: 13px;
+    margin-left: 15px; } }
+
+@media screen and (max-width: 420px) {
+  .counts-block {
+    flex-wrap: initial;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px; }
+  .counts-block .counts-box {
+    width: 100%; } }
+
+@media screen and (max-width: 960px) {
+  .services__title {
+    padding-top: 70px; }
+  .services__title .services__heading {
+    font-size: 35px; }
+  .services__title .services__paragraph {
+    font-size: 15px;
+    margin-top: 25px;
+    padding: 0 20px;
+    line-height: 20px; }
+  .services .accordion .accordion-box .accordion-content__text .content-paragraph {
+    font-size: 13px; } }
+
+@media screen and (max-width: 640px) {
+  .services__title {
+    padding-top: 30px; }
+  .services__title .services__heading {
+    font-size: 25px; }
+  .services__title .services__paragraph {
+    font-size: 13px;
+    margin-top: 15px; }
+  .services .accordion {
+    margin: 30px auto 50px auto; }
+  .services .accordion .accordion-box .accordion-content__text .content-paragraph {
+    font-size: 12px; }
+  .services .accordion .accordion-box .accordion-title__logo .logo-text {
+    font-size: 13px; } }
+
+@media screen and (max-width: 480px) {
+  .services__title .services__heading {
+    font-size: 18px; }
+  .services .accordion .accordion-box .accordion-content_active {
+    flex-direction: column; }
+  .services .accordion .accordion-box .accordion-content__text .content-paragraph {
+    margin-left: 0;
+    margin-top: 20px;
+    font-size: 11px; }
+  .services .accordion .accordion-box .accordion-content .accordion-content__image {
+    margin: 0 auto; } }
+
+@media screen and (max-width: 1400px) {
+  .comments__text {
+    width: initial; }
+  .comments .comments__slider {
+    margin-left: 30px; }
+  .comments .comments__slider .slider-link_top {
+    margin-top: 20px; }
+  .comments .comments__slider .slider-link_bottom {
+    margin-bottom: 20px; } }
 
 body {
   font-family: 'Raleway', sans-serif; }

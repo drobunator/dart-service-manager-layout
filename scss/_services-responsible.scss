@@ -1,0 +1,58 @@
+@media screen and (max-width: 960px) {
+  .services__title{
+    padding-top: 70px;
+  }
+  .services__title .services__heading{
+    font-size: 35px;
+  }
+  .services__title .services__paragraph{
+    font-size: 15px;
+    margin-top: 25px;
+    padding: 0 20px;
+    line-height: 20px;
+  }
+  .services .accordion .accordion-box .accordion-content__text .content-paragraph{
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+
+  .services__title{
+    padding-top: 30px;
+  }
+  .services__title .services__heading{
+    font-size: 25px;
+  }
+  .services__title .services__paragraph{
+    font-size: 13px;
+    margin-top: 15px;
+  }
+  .services .accordion{
+    margin: 30px auto 50px auto;
+
+  }
+  .services .accordion .accordion-box .accordion-content__text .content-paragraph{
+    font-size: 12px;
+  }
+  .services .accordion .accordion-box .accordion-title__logo .logo-text{
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 480px){
+  .services__title .services__heading{
+    font-size: 18px;
+  }
+  .services .accordion .accordion-box .accordion-content_active{
+    flex-direction: column;
+  }
+  .services .accordion .accordion-box .accordion-content__text .content-paragraph{
+    margin-left: 0;
+    margin-top: 20px;
+    font-size: 11px;
+  }
+  .services .accordion .accordion-box .accordion-content .accordion-content__image{
+    margin: 0 auto;
+  }
+}
