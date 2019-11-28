@@ -408,6 +408,75 @@ a {
       font-style: italic;
       line-height: 25px; }
 
+.our-team {
+  padding-top: 100px;
+  max-width: 1600px; }
+  .our-team__text {
+    max-width: 590px;
+    margin: 0 auto 65px auto;
+    text-align: center; }
+    .our-team__text .our-team__heading {
+      font-size: 45px;
+      font-weight: 700;
+      margin-bottom: 30px; }
+    .our-team__text .our-team__paragraph {
+      font-size: 15px;
+      line-height: 25px;
+      color: #b0bec5; }
+  .our-team__slider {
+    max-width: 680px;
+    width: 100%;
+    margin: 0 auto 32px auto; }
+    .our-team__slider .slider-block .slider-avatar {
+      display: flex;
+      max-width: 480px;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0 auto 40px auto; }
+      .our-team__slider .slider-block .slider-avatar .slider-avatar__image {
+        border-radius: 50%;
+        max-width: 100px;
+        width: 100%;
+        opacity: .4;
+        cursor: pointer; }
+        .our-team__slider .slider-block .slider-avatar .slider-avatar__image .avatar {
+          width: 100%;
+          position: relative; }
+        .our-team__slider .slider-block .slider-avatar .slider-avatar__image .box_active {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          top: 0;
+          border-radius: 50%;
+          box-shadow: inset 0 0 10px 10px black; }
+      .our-team__slider .slider-block .slider-avatar .slider-avatar__image_active {
+        position: relative;
+        max-width: 160px;
+        box-sizing: content-box;
+        opacity: 1;
+        border: solid 20px rgba(255, 255, 255, 0.11);
+        box-shadow: 0 0 30px 2px rgba(0, 0, 0, 0.15); }
+    .our-team__slider .slider-text {
+      text-align: center; }
+      .our-team__slider .slider-text__name {
+        font-size: 18px;
+        font-weight: 700;
+        margin-bottom: 20px; }
+      .our-team__slider .slider-text__info {
+        font-size: 15px;
+        line-height: 25px;
+        color: #90a4ae; }
+
+.social-link {
+  max-width: 215px;
+  margin: 0 auto 90px auto;
+  display: flex;
+  justify-content: space-between; }
+  .social-link__icon {
+    height: 18px; }
+    .social-link__icon .social-icon {
+      height: 18px; }
+
 @media screen and (max-width: 1024px) {
   .page .page-content {
     margin: 60px auto 0 auto; }
