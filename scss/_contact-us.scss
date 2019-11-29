@@ -1,0 +1,133 @@
+.contact-us {
+  background: #fafafa;
+
+  .contact-us__text {
+    max-width: 620px;
+    padding-top: 50px;
+    text-align: center;
+    margin: 0 auto 50px auto;
+
+    .contact-us__heading {
+      font-size: 45px;
+      font-weight: 700;
+      margin-bottom: 30px;
+    }
+
+    .contact-us__paragraph {
+      font-size: 15px;
+      line-height: 25px;
+    }
+  }
+
+  .contact-us__form {
+    max-width: 600px;
+    margin: 0 auto 0 auto;
+  }
+
+  .contact-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .contact-form__text input {
+      width: 280px;
+      height: 50px;
+      border: 1px solid #000000;
+      border-radius: 4px;
+      margin-bottom: 20px;
+      color: black;
+      padding: 19px;
+      outline: none;
+
+    }
+
+    .contact-form__text input[type="text"]::placeholder {
+      color: #000000;
+      font-size: 14px;
+      font-weight: 600;
+      font-family: 'Raleway', sans-serif;
+    }
+  }
+
+  textarea {
+    width: 100%;
+    height: 150px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    padding: 19px;
+    outline: none;
+  }
+
+  textarea::placeholder {
+    color: #000000;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  .contact-form__send {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding-bottom: 90px;
+  }
+
+  .checkbox {
+    display: flex;
+    align-items: center;
+  }
+
+  input[type="checkbox"] {
+    display: none;
+    &:checked{
+      &~.custom-checkbox{
+        &:after{
+          background: #1de9b6;
+        }
+      }
+    }
+  }
+  .custom-checkbox{
+    position: relative;
+    display: block;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #000000;
+    border-radius: 3px;
+    &:after{
+      content: '';
+      position: absolute;
+      top: 2px;
+      right: 2px;
+      left: 2px;
+      bottom: 2px;
+      transition: all linear .3s;
+      opacity: .5;
+    }
+  }
+  .checkbox-text{
+    margin-left: 10px;
+    font-size: 15px;
+    color: #000000;
+    font-weight: 600;
+  }
+  .textarea-button {
+    width: 130px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    border-radius: 4px;
+    background: #1de9b6;
+    box-shadow: 0 0 10px -5px rgba(0, 0, 0, 0.5);
+    outline: none;
+    &:hover{
+      transform: scale(1.1);
+    }
+  }
+
+}
+
+
