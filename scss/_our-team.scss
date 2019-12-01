@@ -94,12 +94,9 @@
   display: flex;
   justify-content: space-between;
 
-  &__icon {
-    height: 18px;
-
-    .social-icon {
-      height: 18px;
-    }
+  .link-social {
+    color: #78909c;
+    font-size: 20px;
   }
-
 }
+
