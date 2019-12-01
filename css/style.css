@@ -871,7 +871,7 @@ a {
   .social-link {
     margin: 0 auto 30px auto; }
     .social-link .link-social {
-      font-size: 15px; } }
+      font-size: 20px; } }
 
 @media screen and (max-width: 480px) {
   .our-team__slider .slider-block .slider-avatar {
