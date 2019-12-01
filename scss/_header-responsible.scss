@@ -18,6 +18,27 @@
   }
   .navigation{
     display: none;
+    &__link{
+      margin-right: 0;
+      padding: 10px;
+      border-bottom: 1px solid #061e37 ;
+      color:#061e37;
+      &:last-child{
+        border-bottom: 0;
+      }
+    }
+  }
+  .navigation_active{
+    display: flex;
+    border: 1px solid #061e37;
+    border-radius: 3px ;
+    position: absolute;
+    flex-direction: column;
+    right: 80px;
+    top: 80px;
+  }
+  .header-box .navigation-button{
+    display: block;
   }
   .header__content{
     margin-top: 80px;
