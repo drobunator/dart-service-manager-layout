@@ -20,7 +20,8 @@
     cursor: pointer;
     display: none;
     position: relative;
-    &:hover{
+
+    &:hover {
       border: 1px solid #061e37;
     }
 
@@ -33,9 +34,11 @@
     }
   }
 }
-.navigation-button:hover .navigation-button__content{
+
+.navigation-button:hover .navigation-button__content {
   background: #061e37;
 }
+
 .logo {
   display: flex;
   color: #fff;
