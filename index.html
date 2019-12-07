@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="shortcut icon" href="image/headerImage/favicon.ico">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap&subset=latin-ext"
           rel="stylesheet">
     <script src="https://kit.fontawesome.com/67a2e010c4.js" crossorigin="anonymous"></script>
@@ -69,20 +70,20 @@
                     ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud </p>
             </div>
             <div class="title-block">
-                <div class="title-box">
+                <div class="title-box animated fadeInRightBig wow">
                     <img src="image/mainImage/title-box/title-box1.png" alt="" class="title-box__image">
                     <h3 class="title-box__heading">Title Goes Here</h3>
                     <p class="title-box__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
                         eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
-                <div class="title-box">
+                <div class="title-box animated fadeInRightBig wow" data-wow-delay=".3s">
                     <img src="image/mainImage/title-box/title-box2.png" alt=""
                          class="title-box__image title-box__image_size">
                     <h3 class="title-box__heading">Title Goes Here</h3>
                     <p class="title-box__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
                         eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
-                <div class="title-box">
+                <div class="title-box animated fadeInRightBig wow" data-wow-delay=".7s">
                     <img src="image/mainImage/title-box/title-box3.png" alt="" class="title-box__image">
                     <h3 class="title-box__heading">Title Goes Here</h3>
                     <p class="title-box__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
@@ -197,11 +198,13 @@
                     <div class="accordion-title">
                         <div class="accordion-title__logo">
                             <div class="logo-image">
-                                <img src="image/mainImage/accordion-image/secondAccordion.png" alt="" class="accordion-logo"></div>
+                                <img src="image/mainImage/accordion-image/secondAccordion.png" alt=""
+                                     class="accordion-logo"></div>
                             <p class="logo-text">inbox</p>
                         </div>
                         <div class="accordion-title__icon">
-                            <img src="image/mainImage/accordion-image/logoAccordion.png" alt="" class="accordion-icon"></div>
+                            <img src="image/mainImage/accordion-image/logoAccordion.png" alt="" class="accordion-icon">
+                        </div>
                     </div>
                     <div class="accordion-content">
                         <div class="accordion-content__image">
@@ -252,7 +255,8 @@
                     <div class="accordion-title">
                         <div class="accordion-title__logo">
                             <div class="logo-image">
-                                <img src="image/mainImage/accordion-image/fourthAccordion.png" alt="" class="accordion-logo">
+                                <img src="image/mainImage/accordion-image/fourthAccordion.png" alt=""
+                                     class="accordion-logo">
                             </div>
                             <p class="logo-text">settings</p>
                         </div>
@@ -282,7 +286,8 @@
                     <div class="accordion-title">
                         <div class="accordion-title__logo">
                             <div class="logo-image">
-                                <img src="image/mainImage/accordion-image/fifthAccordion.png" alt="" class="accordion-logo">
+                                <img src="image/mainImage/accordion-image/fifthAccordion.png" alt=""
+                                     class="accordion-logo">
                             </div>
                             <p class="logo-text">feed</p>
                         </div>
@@ -470,7 +475,19 @@
     </footer>
 </div>
 
-
+<script src="script/wow.js"></script>
+<script>
+    wow = new WOW(
+        {
+            boxClass:     'wow',      // default
+            animateClass: 'animated', // default
+            offset:       0,          // default
+            mobile:       false,       // default
+            live:         true        // default
+        }
+    );
+    wow.init();
+</script>
 <script src="script/script.js"></script>
 </body>
 </html>

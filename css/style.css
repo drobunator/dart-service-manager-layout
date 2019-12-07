@@ -253,23 +253,41 @@ a {
   text-align: center;
   background: #ffffff;
   padding: 0 80px; }
-  .page .page-content {
+  .page-content {
     max-width: 675px;
     margin: 100px auto 0 auto; }
-    .page .page-content .page-content__heading {
+    .page-content__heading {
       font-size: 45px;
       font-weight: 700; }
-    .page .page-content .page-content__title {
+    .page-content__title {
       font-size: 25px;
       font-weight: 700;
       color: #b0bec5;
       margin-top: 16px; }
-    .page .page-content .page-content__paragraph {
+    .page-content__paragraph {
       font-size: 15px;
       line-height: 25px;
       font-weight: 500;
       color: #b0bec5;
       margin-top: 25px; }
+  .page__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 700;
+    color: #ffffff;
+    width: 150px;
+    height: 55px;
+    text-transform: uppercase;
+    background: #1de9b6;
+    border-radius: 5px;
+    margin: 0 auto;
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.46);
+    outline: none;
+    cursor: pointer; }
+    .page__button:hover {
+      transform: scale(1.1); }
   .page .title-block {
     display: flex;
     justify-content: space-between;
@@ -291,24 +309,6 @@ a {
         color: #8399a4;
         line-height: 20px;
         margin-top: 20px; }
-  .page .page__button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 15px;
-    font-weight: 700;
-    color: #ffffff;
-    width: 150px;
-    height: 55px;
-    text-transform: uppercase;
-    background: #1de9b6;
-    border-radius: 5px;
-    margin: 0 auto;
-    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.46);
-    outline: none;
-    cursor: pointer; }
-    .page .page__button:hover {
-      transform: scale(1.1); }
 
 .counts-block {
   display: flex;
@@ -381,9 +381,8 @@ a {
       cursor: pointer;
       padding: 0 25px; }
       .services .accordion .accordion-box .accordion-title_active {
-        background: #1de9b6;
-        border-radius: 5px  5px 0 0;
-        opacity: .7; }
+        background: rgba(29, 233, 182, 0.7);
+        border-radius: 5px 5px 0 0; }
       .services .accordion .accordion-box .accordion-title__logo {
         display: flex; }
         .services .accordion .accordion-box .accordion-title__logo .logo-text {

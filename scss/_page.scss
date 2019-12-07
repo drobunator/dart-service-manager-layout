@@ -3,28 +3,50 @@
   background: #ffffff;
   padding: 0 80px;
 
-  .page-content {
+  &-content {
     max-width: 675px;
     margin: 100px auto 0 auto;
 
-    .page-content__heading {
+    &__heading {
       font-size: 45px;
       font-weight: 700;
     }
 
-    .page-content__title {
+    &__title {
       font-size: 25px;
       font-weight: 700;
       color: #b0bec5;
       margin-top: 16px;
     }
 
-    .page-content__paragraph {
+    &__paragraph {
       font-size: 15px;
       line-height: 25px;
       font-weight: 500;
       color: #b0bec5;
       margin-top: 25px;
+    }
+  }
+
+  &__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 700;
+    color: #ffffff;
+    width: 150px;
+    height: 55px;
+    text-transform: uppercase;
+    background: #1de9b6;
+    border-radius: 5px;
+    margin: 0 auto;
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.46);
+    outline: none;
+    cursor: pointer;
+
+    &:hover {
+      transform: scale(1.1);
     }
   }
 
@@ -35,7 +57,7 @@
     margin-top: 104px;
     margin-bottom: 80px;
 
-    .title-box {
+    .title-box  {
       max-width: 25%;
       text-align: center;
 
@@ -57,27 +79,7 @@
         margin-top: 20px;
       }
     }
-  }
 
-  .page__button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 15px;
-    font-weight: 700;
-    color: #ffffff;
-    width: 150px;
-    height: 55px;
-    text-transform: uppercase;
-    background: #1de9b6;
-    border-radius: 5px;
-    margin: 0 auto;
-    box-shadow: 0 10px 8px 0 rgba(0,0,0,0.46);
-    outline: none;
-    cursor: pointer;
-
-    &:hover {
-      transform: scale(1.1);
-    }
   }
 }
+

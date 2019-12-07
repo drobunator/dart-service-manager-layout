@@ -40,15 +40,12 @@
         padding: 0 25px;
 
         &_active {
-          background: #1de9b6;
-          border-radius: 5px  5px 0 0;
-          opacity: .7;
-
+          background: rgba(29, 233, 182, 0.7);
+          border-radius: 5px 5px 0 0;
         }
 
         &__logo {
           display: flex;
-
 
           .logo-text {
             margin-left: 10px;
@@ -65,15 +62,12 @@
             transform: rotate(180deg);
             transition: linear 0.2s;
           }
-
         }
-
       }
 
       .accordion-content {
         display: none;
         padding: 25px;
-
 
         &_active {
           display: flex;
@@ -97,8 +91,6 @@
             width: 100%;
           }
         }
-
-
       }
     }
   }
