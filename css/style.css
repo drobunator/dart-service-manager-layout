@@ -27,7 +27,8 @@
       margin: 3px; }
 
 .navigation-button:hover .navigation-button__content {
-  background: #061e37; }
+  background: #061e37;
+  transition: all linear .6s; }
 
 .logo {
   display: flex;
@@ -44,7 +45,7 @@
   font-weight: 600; }
   .navigation__link:hover {
     color: #061e37;
-    transition: linear .6s; }
+    transition: linear .8s; }
 
 .navigation .navigation__link_active {
   color: #061e37; }
@@ -153,15 +154,23 @@ a {
   .navigation {
     display: none; }
     .navigation__link {
+      background: #15c9c6;
+      border-radius: 5px;
       margin-right: 0;
       padding: 10px;
-      border-bottom: 1px solid #061e37;
-      color: #061e37; }
-      .navigation__link:last-child {
-        border-bottom: 0; }
+      color: #fff;
+      border-left: 1px solid transparent;
+      margin-bottom: 5px; }
+      .navigation__link:nth-child(2) {
+        color: #fff; }
+      .navigation__link:hover {
+        transition: all linear .3s;
+        border-left: 3px solid #061e37;
+        color: #061e37; }
   .navigation_active {
+    max-width: 120px;
+    width: 100%;
     display: flex;
-    border: 1px solid #061e37;
     border-radius: 3px;
     position: absolute;
     flex-direction: column;
@@ -216,7 +225,9 @@ a {
   .header__content .content-text .content-link {
     width: 100px;
     height: 40px;
-    font-size: 11px; } }
+    font-size: 11px; }
+  .navigation_active {
+    right: 40px; } }
 
 @media screen and (max-width: 540px) {
   .header {
@@ -232,7 +243,11 @@ a {
   .header__content .content-text__paragraph {
     font-size: 11px;
     line-height: 20px;
-    margin-top: 10px; } }
+    margin-top: 10px; }
+  .navigation_active {
+    right: 40px; }
+  .navigation_active {
+    right: 25px; } }
 
 .page {
   text-align: center;

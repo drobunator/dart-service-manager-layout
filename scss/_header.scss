@@ -37,6 +37,7 @@
 
 .navigation-button:hover .navigation-button__content {
   background: #061e37;
+  transition: all linear .6s;
 }
 
 .logo {
@@ -61,7 +62,7 @@
 
     &:hover {
       color: #061e37;
-      transition: linear .6s;
+      transition: linear .8s;
     }
   }
 
