@@ -1,2 +1,2 @@
 # Dart Service Manager
-https://drobunator.github.io/DartServiceManager/
+https://drobunator.github.io/dart-service-manager-layout/
